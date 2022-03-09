@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 $(document).ready(function(){
   $('.slider').slider({
-    height:600 ,
+    height:800 ,
     duration: 500,
   });
 });
