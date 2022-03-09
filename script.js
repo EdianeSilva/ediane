@@ -5,6 +5,22 @@ $(function(){
   });
 });
 
+
+
+
+// Show sideNav
+$('.button-collapse').sideNav('');
+
+$('.button-collapse').sideNav({
+    menuWidth: 300,
+    edge: 'right', 
+    closeOnClick: true,
+    draggable: true, 
+
+  }
+);
+
+
 // slider
 document.addEventListener('DOMContentLoaded', function() {
   var elems = document.querySelectorAll('.slider');
@@ -15,7 +31,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 $(document).ready(function(){
   $('.slider').slider({
-    height:800 ,
+    height:700 ,
     duration: 500,
   });
 });
