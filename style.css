@@ -23,9 +23,12 @@ body {
     background: var(--bgColor);
   }
 
-#main {
-    padding-left: 240px;
+  html {
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
 }
+
+
 
 .work {
     width: min(60rem, 90%);
@@ -51,7 +54,13 @@ body {
     --accent-color: #ae78cbce;
   }
 
-  .work li {
+  .work {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+  .work > li {
     /* outline: 1px solid hotpink; */
     counter-increment: stepnr;
     --borderS: 2rem;
