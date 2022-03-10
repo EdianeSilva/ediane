@@ -9,8 +9,6 @@ $(function(){
 
 
 // Show sideNav
-$('.button-collapse').sideNav('');
-
 $('.button-collapse').sideNav({
     menuWidth: 300,
     edge: 'right', 
@@ -19,6 +17,8 @@ $('.button-collapse').sideNav({
 
   }
 );
+
+
 
 
 // slider
