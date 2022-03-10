@@ -55,7 +55,7 @@ table {
 
 body {
   --color: rgba(30, 30, 30);
-  --bgColor: rgb(197, 197, 197);
+  --bgColor: rgb(240, 240, 240);
   color: var(--color);
   background: var(--bgColor);
 }
