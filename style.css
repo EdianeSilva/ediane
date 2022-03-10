@@ -15,12 +15,10 @@ body {
   background: var(--bgColor);
 }
 
-
 /* */
 footer{
     font-weight: 700;
 }
-
 #sidenav-overlay {
   position: fixed;
   top: 0;
