@@ -21,7 +21,7 @@
 <header>
   <div class="navbar-fixed">
     <nav>
-      <div style="border-bottom: 2px solid rgb(87, 90, 90);" class="nav-wrapper black">
+      <div class="nav-wrapper">
         <a href="#" data-activates="slide-out" class="button-collapse show-on-large "><i class="material-icons">apps</i></a>
         <a href="#!" class="brand-logo center">Ediane Silva</a>
         <ul class="right ">
@@ -32,7 +32,7 @@
       </div>
     </nav>
   </div>
-<ul id="slide-out" class="side-nav black">
+<ul style="background-color: #0000008c;" id="slide-out" class="side-nav">
   <li>
     <div class="user-view">
       <div class="background">
@@ -63,10 +63,9 @@
 
   <li class="bold active"><a href="https://goo.gl/maps/Q8K45hXyFDuNmkCg9" class="waves-effect white-text"><i class="material-icons white-text"> location_on</i> Alphaville - SP</a>
   </li>
-  <div class="divider grey darken-4"></div>
   <div class="row">
     <div class="col s12 12">
-      <div class="card black">
+      <div style="border-radius: 50px 0 50px 0; border: 1px solid rgb(66, 66, 66);" class="card black">
         <div class="card-content grey-text center-align">
           <span class="card-title">Sobre</span>
           <div class="divider teal"></div><br>
@@ -125,8 +124,8 @@
 </ul>
 </div> 
 <section class="projetos">
-  <div class="container">
-    <h1 class="titulo teal-text">Serviços</h1>
+  <div class="container titulo">
+    <h1 class="text">Serviços</h1>
   </div>
   <div style="margin-bottom: 60px;" class="container">
     <div class="section news" id="servicos">
@@ -155,81 +154,66 @@
     </div>
   </div>
 </section>
-<div style="margin: 10px;" class="projetos">
-  <div class="container">
-    <h1 class="titulo teal-text">Projetos recentes</h1>
-  </div>
- <div class="section top-section col s12 l9" id="projetos">
-    <div class="row">
-      <div class="col s12 l3">
-        <div class="card horizontal">
-          <div class="card-image">
-            <img src="app-tarefas.png">
-          </div>
-          <div class="card-stacked">
-            <div class="card-content">
-              <h5>App de tarefas</h5>
-            </div>
-            <div class="card-action">
-              <a class="btn large-btn" href="https://edianesilva.github.io/APP-DE-TAREFAS/">CONFIRA</a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col s12 l3">
-        <div class="card horizontal">
-          <div class="card-image">
-            <img src="2.png">
-          </div>
-          <div class="card-stacked">
-            <div class="card-content">
-              <h5>Fj Engenharia </h5>
-            </div>
-            <div class="card-action">
-              <a class="btn large-btn" href="https://edianesilva.github.io/fjObras/">CONFIRA</a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col s12 l3">
-        <div class="card horizontal">
-          <div class="card-image">
-            <img src="alpha.png">
-          </div>
-          <div class="card-stacked">
-            <div class="card-content">
-              <h5>Landing page</h5>
-            </div>
-            <div class="card-action">
-              <a class="btn large-btn" href="https://edianesilva.github.io/alphaDeepClean/">CONFIRA</a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col s12 l3">
-        <div class="card horizontal">
-          <div class="card-image">
-            <img src="3.png">
-          </div>
-          <div class="card-stacked">
-            <div class="card-content">
-              <h5>Jogo da forca</h5>
-            </div>
-            <div class="card-action">
-              <a class="btn large-btn" href="https://edianesilva.github.io/jogoDaForca/">CONFIRA</a>
-            </div>
-          </div>
-        </div>
-      </div>
+
+  <div style="margin: 50px 0;" class="projetos" id="projetos">
+    <div class="container titulo">
+      <h1 class="text">Projetos recentes</h1>
     </div>
-  </div> 
+  <ul class="product-plans">
+    <li class="product-plan">
+        <div class="title white-text">App de tarefas</div>
+        <div class="price"><i class="material-icons">extension</i></div>
+        <div class="container center-align">
+            <img width="350px" src="../ediane/app-tarefas.png" alt="" class="circle responsive-img">
+          </div>
+        <a href="https://edianesilva.github.io/APP-DE-TAREFAS/"><button class="btn">CONFIRA</button></a>
+    </li>
+
+    <li class="product-plan">
+      <div class="title white-text">AM construções</div>
+      <div class="price"><i class="material-icons">extension</i></div>
+      <div class="container center-align">
+          <img width="350px" src="amconstrucoes.jpeg" alt="" class="circle responsive-img">
+        </div>
+      <a href="https://edianesilva.github.io/amconstrucoes/"><button class="btn">CONFIRA</button></a>
+  </li>
+
+  <li class="product-plan">
+    <div class="title white-text">Landing page</div>
+    <div class="price"><i class="material-icons">extension</i></div>
+    <div class="container center-align">
+        <img width="450px" src="alpha.png" alt="" class="circle responsive-img">
+      </div>
+    <a href="https://edianesilva.github.io/alphaDeepClean/"><button class="btn">CONFIRA</button></a>
+</li>
+</ul> 
+<br><br><br><br>
+<ul class="product-plans">
+  <li class="product-plan">
+    <div class="title white-text">Fj Engenharia</div>
+    <div class="price"><i class="material-icons">extension</i></div>
+    <div class="container center-align">
+        <img width="230px" src="2.png" alt="" class="circle responsive-img">
+      </div>
+    <a href="https://edianesilva.github.io/fjObras/"><button class="btn">CONFIRA</button></a>
+  </li>
+  
+  <li class="product-plan">
+    <div class="title white-text">Jogo da Forca</div>
+    <div class="price"><i class="material-icons">extension</i></div>
+    <div class="container center-align">
+        <img width="350px" src="forca-jogo.png" alt="" class="circle responsive-img">
+      </div>
+    <a href="https://edianesilva.github.io/jogoDaForca/"><button class="btn">CONFIRA</button></a>
+  </li>
+</ul>
 </div>
+
 <div class="fixed-action-btn" style="bottom: 45px; right: 24px;">
   <a class="btn-floating btn-large waves-effect waves-light  teal lighten-1 pulse">
     <i class="large material-icons">gamepad</i>
   </a>
   <ul>
-    <li><a class="btn-floating red" href="mailto:ediane.web@gmail.com"><i class="material-icons">alternate_email</i></a></li>
     <li><a class="btn-floating pink" href="https://www.instagram.com/edianeweb/"><i class="fa fa-instagram"></i> </a></li>
     <li><a class="btn-floating blue" href="https://www.facebook.com/ediane.web"><i class="material-icons">facebook</i></a></li>
     <li><a class="btn-floating green" href="https://wa.me/5511975626813"><i class="material-icons">whatsapp</i></a></li>

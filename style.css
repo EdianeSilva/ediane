@@ -57,28 +57,42 @@ body {
   --color: rgba(30, 30, 30);
   --bgColor: rgb(240, 240, 240);
   color: var(--color);
-  background: var(--bgColor);
+}
+body{
+  background-image: linear-gradient(120deg, #fdfbfb 0%, #dae3ec 100%);
 }
 
 /* */
 footer{
     font-weight: 700;
 }
-#sidenav-overlay {
+.nav-wrapper{
+  background: linear-gradient(to bottom, #323232 0%, #3F3F3F 40%, #1C1C1C 150%), linear-gradient(to top, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.25) 200%);
+  background-blend-mode: multiply; 
+  border-bottom: 2px solid rgb(47, 47, 47);
+}
+
+sidenav-overlay {
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
   height: 120vh;
-  background-color: rgb(255, 254, 254);
+  background-color: rgb(254, 254, 255);
   z-index: 997;
   will-change: opacity;
 }
 
 /*projetos*/
-.titulo {
+.titulo h1{
   text-align: center;
-  margin-top: 15vh;
+  margin-top: 25px;
+  margin-bottom: 55px;
+  font-size: 3rem;
+  padding: 15px;
+  border: 1px solid rgb(223, 221, 221);
+  border-radius: 15px;
+  background-image: linear-gradient(to top, #bebcbda6 0%, white 100%);
 }
 
 .work {
@@ -93,7 +107,7 @@ footer{
 }
 
 .a:nth-child(6n + 1) {
-  --accent-color: #929291c7;
+  --accent-color: #03a78c96;
 }
 .a:nth-child(6n + 2) {
   --accent-color: #4cbccbce;
@@ -102,7 +116,7 @@ footer{
   --accent-color: #7197d3d0;
 }
 .a:nth-child(6n + 4) {
-  --accent-color: #ae78cbce;
+  --accent-color: #cb78c7ce;
 }
 
 .work li {
@@ -161,6 +175,147 @@ footer{
   font-weight: 300;
   font-size: 0.9rem;
   color: rgb(52, 53, 53);
+}
+/* PROJETOS */
+ul.product-plans {
+  width: min(60rem, 90%);
+  margin-inline: auto;
+  display: flex;
+  row-gap: 2rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style: none;
+}
+.product-plan{
+  background: linear-gradient(to bottom, rgba(255,255,255,0.15) 0%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898;
+  background-blend-mode: multiply,multiply;
+  margin-top: 25px;
+  margin-bottom: 15px;
+}
+ul.product-plans li.product-plan:nth-child(1) { --accent-color: #1a9b8b }
+ul.product-plans li.product-plan:nth-child(2) { --accent-color: #1a9b8b }
+ul.product-plans li.product-plan:nth-child(3) { --accent-color: #1a9b8b }
+ul.product-plans li.product-plan:nth-child(4) { --accent-color: #1a9b8b }
+ul.product-plans li.product-plan:nth-child(5) { --accent-color: #1a9b8b}
+
+ul.product-plans li.product-plan {
+  --overlap-size: 1.5rem;
+  --border-radius: 5rem;
+  width: min(15rem, 100%);
+  margin-inline: var(--overlap-size);
+  padding-block: 2rem;
+  display: grid;
+  grid-template-rows: max-content max-content 1fr max-content;
+  gap: 0.5rem;
+  border-radius: var(--border-radius) 0 var(--border-radius) 0;
+  box-shadow: 0.25rem 0.25rem 0.5rem rgba(0, 0, 0, 0.5);
+}
+
+ul.product-plans li.product-plan .title {
+  font-size: 1.5rem;
+  color: var(--accent-color);
+  text-align: center;
+}
+
+ul.product-plans li.product-plan .price {
+  margin-right: calc(var(--overlap-size) * -1);
+  justify-self: end;
+  padding-block: 0.25rem;
+  padding-inline: var(--overlap-size);
+  background-color: var(--accent-color);
+  color: rgb(228, 227, 227);
+  position: relative;
+}
+ul.product-plans li.product-plan .price::after {
+  content: "";
+  position: absolute;
+  height: var(--overlap-size);
+  width: var(--overlap-size);
+  right: 0;
+  top: 100%;
+  background-color: inherit;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+  clip-path: polygon(0 0, 100% 0, 0 100%);
+}
+
+ul.product-plans li.product-plan .btn {
+  justify-self: start;
+  margin-left: calc(var(--overlap-size) * -1);
+  padding-block: 0.5rem;
+  padding-inline: 2.5rem;
+
+  border: none;
+  font-family: inherit;
+  color: rgb(228, 227, 227);
+  font-size: 1.1rem;
+
+  background-color: var(--accent-color);
+  background-image: linear-gradient(transparent 50%, rgba(0, 0, 0, 0.25) 0);
+  background-size: 100% 200%;
+  transition: background-position 100ms ease;
+
+  position: relative;
+  cursor: pointer;
+}
+ul.product-plans li.product-plan .btn:focus-visible {
+  outline-offset: 5px;
+  outline: 2px solid var(--accent-color);
+  background-position: 0 100%;
+}
+
+ul.product-plans li.product-plan .btn:hover {
+  background-position: 0 100%;
+}
+
+ul.product-plans li.product-plan .btn::after {
+  content: "";
+  position: absolute;
+  height: var(--overlap-size);
+  width: var(--overlap-size);
+  left: 0;
+  bottom: 100%;
+  background-color: inherit;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+  clip-path: polygon(100% 0, 100% 100%, 0 100%);
+}
+
+ul.product-plans li.product-plan .btn:active {
+  transform: scale(0.95);
+}
+ul.product-plans li.product-plan .btn:active::after {
+  transform-origin: left bottom;
+  transform: scale(0.9);
+}
+
+ul.product-plans li.product-plan .features {
+  align-self: flex-start;
+  list-style: none;
+  padding-inline: 2rem;
+  display: grid;
+}
+
+ul.product-plans li.product-plan .features li:not(:first-child) {
+  border-top: 1px solid rgb(200, 200, 200);
+}
+ul.product-plans li.product-plan .features li {
+  padding: 0.5rem;
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: 1rem 1fr;
+}
+
+ul.product-plans li.product-plan .features li::before {
+  font-weight: 900;
+  display: grid;
+  place-items: center;
+}
+ul.product-plans li.product-plan .features li.check::before {
+  content: "\2713";
+  color: green;
+}
+ul.product-plans li.product-plan .features li.cross::before {
+  content: "\d7";
+  color: red;
 }
 
 
