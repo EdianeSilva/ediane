@@ -187,7 +187,7 @@ ul.product-plans {
   list-style: none;
 }
 .product-plan{
-  background-image: linear-gradient( 109.6deg,  rgba(7, 7, 7, 0.788) 11.2%, rgba(67, 187, 187, 0.589) 91.1% );
+  background-image: linear-gradient( 109.6deg,  rgba(1, 47, 41, 0.788) 11.2%, rgba(67, 187, 187, 0.589) 91.1% );
   background-size: cover;
   margin-top: 25px;
   margin-bottom: 15px;
