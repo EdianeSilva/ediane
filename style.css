@@ -86,9 +86,6 @@ sidenav-overlay {
   color: rgb(0, 255, 200) !important;
 }
 .apps{
-  border-radius: 10px !important;
-  background: #0525db3b !important;
-  box-shadow: inset 19px 19px 38px #36363650,inset -19px -19px 38px #b8b7b765 !important;
   color: rgb(0, 255, 200) !important;
 }
 
