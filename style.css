@@ -201,7 +201,7 @@ ul.product-plans {
   list-style: none;
 }
 .product-plan{
-  background:#0191ca94;
+  background:#6a7783;
   box-shadow: inset 5px 5px 10px #202020, inset -5px -5px 10px #464646;
   margin-top: 25px;
   margin-bottom: 15px;
@@ -336,8 +336,7 @@ ul.product-plans li.product-plan .features li.cross::before {
 /* contato form*/
 .contato-card{
   border-radius: 50px 0 50px 0 !important; 
-   background-image: linear-gradient(120deg, #060055 0%, #01c0d1 100% ); 
-
+  background-image: linear-gradient(120deg, #adadad 0%, #5d5d5d 100% );
 }
 
 .placeholder{
@@ -354,10 +353,10 @@ textarea {
   border-bottom: 1px solid #b3b3b3;
 }
 .send-button{
-  background-image: linear-gradient(120deg, #03e8fd 0%, #02ac87 100% ) !important;
+  background-image: linear-gradient(120deg, #585858 0%, #000000 100% ) !important;
   border-radius: 25px !important;
-  border: 2px solid rgb(0, 247, 255) !important;
-  color: #060055 !important;
+  border: 1px solid rgb(0, 184, 190) !important;
+  color: #ffffff !important;
 
 }
 
