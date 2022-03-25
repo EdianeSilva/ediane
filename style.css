@@ -190,6 +190,7 @@ sidenav-overlay {
   font-size: 0.9rem;
   color: rgb(52, 53, 53);
 }
+
 /* PROJETOS */
 ul.product-plans {
   width: min(60rem, 90%);
@@ -206,11 +207,11 @@ ul.product-plans {
   margin-top: 25px;
   margin-bottom: 15px;
 }
-ul.product-plans li.product-plan:nth-child(1) { --accent-color: rgb(2, 109, 151) }
-ul.product-plans li.product-plan:nth-child(2) { --accent-color: rgb(2, 109, 151)}
-ul.product-plans li.product-plan:nth-child(3) { --accent-color :rgb(2, 109, 151) }
-ul.product-plans li.product-plan:nth-child(4) { --accent-color: rgb(2, 109, 151) }
-ul.product-plans li.product-plan:nth-child(5) { --accent-color: rgb(2, 109, 151)}
+ul.product-plans li.product-plan:nth-child(1) { --accent-color: rgb(0, 191, 224) }
+ul.product-plans li.product-plan:nth-child(2) { --accent-color: rgb(0, 191, 224) }
+ul.product-plans li.product-plan:nth-child(3) { --accent-color: rgb(0, 191, 224) }
+ul.product-plans li.product-plan:nth-child(4) { --accent-color: rgb(0, 191, 224) }
+ul.product-plans li.product-plan:nth-child(5) { --accent-color: rgb(0, 191, 224) }
 
 ul.product-plans li.product-plan {
   --overlap-size: 1.5rem;
@@ -229,7 +230,6 @@ ul.product-plans li.product-plan .title {
   font-size: 1.5rem;
   color: var(--accent-color);
   text-align: center;
-  color: rgb(2, 116, 151);
 }
 
 ul.product-plans li.product-plan .price {
