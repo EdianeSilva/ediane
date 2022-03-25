@@ -362,7 +362,7 @@ textarea {
   font-weight: 900;
   font-size: clamp( 1em, 8vw, 5rem);
   grid-area: overlap;
-  letter-spacing: 1px;
+  letter-spacing: 4px;
   -webkit-text-stroke: 4px transparent;
   margin: 10vh 0;
 }
@@ -381,7 +381,7 @@ div.fg{
     var(--gold) 0% , 
     var(--light-shadow) 23%, 
     var(--gold) 31%);
-  color: #8a8888;
+  color: #727070;
   transform: scale(1);
 }
 
