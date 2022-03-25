@@ -60,17 +60,16 @@ body {
 }
 
 
-/* */
+/* 
 footer{
     font-weight: 700;
-    /*background-image: linear-gradient( 109.6deg,  rgba(0,0,0,1) 11.2%, rgb(0, 78, 78) 91.1% );*/
     background-image: url('https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvdjYxNy1iYi0xMS10ZWNobm9sb2d5XzEuanBn.jpg?s=H8cjANnXKNH7dfF79jozxKwRq7q9fcRrpAs5V3Bh7Eo');
     background-size: cover;
 }
 .nav-wrapper{
   background-image: url('https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvdjYxNy1iYi0xMS10ZWNobm9sb2d5XzEuanBn.jpg?s=H8cjANnXKNH7dfF79jozxKwRq7q9fcRrpAs5V3Bh7Eo') !important;
     background-size: cover;
-}
+}*/
 
 sidenav-overlay {
   position: fixed;
