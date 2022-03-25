@@ -344,7 +344,7 @@ textarea {
 
 
 :root {
-  --gold: rgb(0, 255, 242);
+  --gold: rgb(0, 191, 224);
   --light-shadow: #02ddd2;
   --dark-shadow: #3e2904;
 }
@@ -381,7 +381,7 @@ div.fg{
     var(--gold) 0% , 
     var(--light-shadow) 23%, 
     var(--gold) 31%);
-  color: #5a5a5a;
+  color: #8a8888;
   transform: scale(1);
 }
 
