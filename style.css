@@ -372,7 +372,7 @@ div.bg {
     var(--dark-shadow) 5%,
     var(--gold) 12%);
   color: transparent;
-  filter: drop-shadow(3px 5px 5px black);
+  filter: drop-shadow(3px 5px 5px rgb(121, 120, 120));
   transform: scaleY(1.05);
   transform-origin: top;
 }
